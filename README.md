@@ -7,3 +7,4 @@
 |---------|---------|
 |`redis cluster`|redis-cluster|
 |`RocketMQ`|RockertMQ|
+|`ZooKeeper`|ZooKeeper|
