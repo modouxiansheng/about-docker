@@ -1,0 +1,17 @@
+version: '2'
+services:
+ 
+  #rabbitmq container
+  rabbitmq:
+    #setup host name
+    hostname: myrabbitmq
+    #use docker images
+    image: rabbitmq:management
+    #ports setting
+    ports:
+      - 15673:15672
+      - 5673:5672
+    restart: always
+    #volumes setting
+    volumes:
+      - ./data:/var/lib/rabbitmq
